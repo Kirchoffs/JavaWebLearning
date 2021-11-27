@@ -11,6 +11,7 @@
     <modules>
         <module>ServletHitotsu</module>
         <module>ServletFutatsu</module>
+        <module>ServletResponse</module>
     </modules>
 
     <properties>
