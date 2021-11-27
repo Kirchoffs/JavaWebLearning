@@ -15,4 +15,14 @@
     <servlet-name>downloadFile</servlet-name>
     <url-pattern>/downloadFile</url-pattern>
   </servlet-mapping>
+
+  <servlet>
+    <servlet-name>image</servlet-name>
+    <servlet-class>org.syh.servlet.ImageServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>image</servlet-name>
+    <url-pattern>/image</url-pattern>
+  </servlet-mapping>
 </web-app>
