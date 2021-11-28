@@ -10,7 +10,6 @@
     <servlet-name>downloadFile</servlet-name>
     <servlet-class>org.syh.servlet.FileServlet</servlet-class>
   </servlet>
-
   <servlet-mapping>
     <servlet-name>downloadFile</servlet-name>
     <url-pattern>/downloadFile</url-pattern>
@@ -20,9 +19,26 @@
     <servlet-name>image</servlet-name>
     <servlet-class>org.syh.servlet.ImageServlet</servlet-class>
   </servlet>
-
   <servlet-mapping>
     <servlet-name>image</servlet-name>
     <url-pattern>/image</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>redirect</servlet-name>
+    <servlet-class>org.syh.servlet.RedirectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>redirect</servlet-name>
+    <url-pattern>/redirect</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>request</servlet-name>
+    <servlet-class>org.syh.servlet.RequestServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>request</servlet-name>
+    <url-pattern>/login</url-pattern>
   </servlet-mapping>
 </web-app>
