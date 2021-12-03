@@ -13,6 +13,7 @@
         <module>ServletFutatsu</module>
         <module>ServletResponse</module>
         <module>ServletRequest</module>
+        <module>CookieSession</module>
     </modules>
 
     <properties>
