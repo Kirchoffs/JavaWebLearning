@@ -11,11 +11,11 @@
     </parent>
 
     <groupId>org.syh</groupId>
-    <artifactId>CookieSession</artifactId>
+    <artifactId>JSPDemo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>CookieSession Maven Webapp</name>
+    <name>JSPDemo Maven Webapp</name>
 
     <dependencies>
         <dependency>
@@ -27,7 +27,7 @@
     </dependencies>
 
     <build>
-        <finalName>CookieSession</finalName>
+        <finalName>JSPDemo</finalName>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
                 <plugin>
